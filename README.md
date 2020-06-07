@@ -32,6 +32,8 @@ If you want to get inspiration or just show something directly to your clients, 
 
 - [Download from Github](https://github.com/creativetimofficial/vue-argon-dashboard/archive/master.zip).
 
+    or
+
 - Clone the repo: `git clone https://github.com/gunerguney/coincalculator.git`.
 
 In order to define environment variables, ".env" or ".env.local" file should be located in the root folder of the project. The contents of the environment variables file should be defined as follows.
