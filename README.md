@@ -34,6 +34,19 @@ If you want to get inspiration or just show something directly to your clients, 
 
 - Clone the repo: `git clone https://github.com/gunerguney/coincalculator.git`.
 
+In order to define environment variables, ".env" or ".env.local" file should be located in the root folder of the project. The contents of the environment variables file should be defined as follows.
+
+```
+VUE_APP_REST_API_URL=https://pro-api.coinmarketcap.com/v1/
+VUE_APP_API_KEY=YOUR_OWN_REST_API_KEY
+VUE_APP_COIN_TYPES=BTC,BCH,XRP,ETH
+VUE_APP_CURRENCY_TYPES=USD
+VUE_APP_BUY_WAIT_TIME=10
+VUE_APP_MIN_OPT_LIMIT=25
+VUE_APP_MAX_OPT_LIMIT=50000
+```
+
+
 ```
 cd coincalculator
 
@@ -54,7 +67,6 @@ cd coincalculator
 docker build -t coincalculator:dev .
 
 docker run -v ${PWD}:/app -v /app/node_modules -p 8081:8080 --rm coincalculator:dev
-
 ```
 
 Open your browser to http://localhost:8081 and you should see the app.
