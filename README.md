@@ -80,8 +80,9 @@ Within the download you'll find the following directories and files:
 
 ```
 |-- Coin Calculator project structure
+    |-- .dockerignore
     |-- .gitignore
-    |-- .env
+    |-- Dockerfile
     |-- README.md
     |-- babel.config.js
     |-- package.json
