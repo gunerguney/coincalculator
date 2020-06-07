@@ -2,7 +2,7 @@
 
 In our day, cryptocurrency replaces real currencies, and therefore the volume of transactions in this market is increasing every day. In line with the demand for the market, the infrastructure and interfaces that will meet the needs are increasing day by day and becoming more comprehensive.
 
-The CoinCalculator project, which is one of the interfaces developed based on these needs, provides users the opportunity to easily calculate the cryptocurrency they want to buy or sell through live exchange rates. It also takes live market data using the rest api and shows users instant cryptocurrency values and hourly changes.
+The CoinCalculator project, which is one of the interfaces developed based on these needs, provides users the opportunity to easily calculate the cryptocurrency they want to buy or sell through live exchange rates. It also takes live market data from https://coinmarketcap.com/ using the rest api and shows users instant cryptocurrency values and hourly changes.
 
 The crytocurrency types to be displayed on the screen and for calculation and the currency types to be exchanged are parametrically drawn from the environment variables file. In addition, the frequency of updating market data, minimum and maximum transaction limits and the time given to the user to purchase can be defined from the environment variables file.
 
