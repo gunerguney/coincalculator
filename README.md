@@ -34,6 +34,13 @@ If you want to get inspiration or just show something directly to your clients, 
 
 - Clone the repo: `git clone https://github.com/gunerguney/coincalculator.git`.
 
+```
+cd coincalculator
+
+npm install
+
+npm run serve
+```
 
 ## Documentation
 The documentation for the Vue Argon Dashboard is hosted at our [website](https://demos.creative-tim.com/vue-argon-dashboard/documentation/tutorial?ref=ada-github-readme).
