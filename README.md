@@ -91,7 +91,7 @@ Within the download you'll find the following directories and files:
     |   |-- index.html
     |   |-- manifest.json
     |   |-- robots.txt
-    |   |-- img
+    |   |-- img/
     |-- src
         |-- App.vue
         |-- main.js
@@ -104,10 +104,10 @@ Within the download you'll find the following directories and files:
         |   |-- vendor
         |       |-- @fortawesome
         |       |-- nucleo
-        |-- components
-        |-- directives
-        |-- layout
-        |-- plugins
+        |-- components/
+        |-- directives/
+        |-- layout/
+        |-- plugins/
         |-- views
             |-- CoinCalculator.vue
             |-- Login.vue
