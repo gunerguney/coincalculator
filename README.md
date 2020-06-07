@@ -42,6 +42,23 @@ npm install
 npm run serve
 ```
 
+### Coin Calculator Docker 
+
+This repo contains a Dockerfile for the Coin Calculator web application
+
+Follow the steps below to create your own Coin Calculator development server using this Docker image:
+
+```
+cd coincalculator
+
+docker build -t coincalculator:dev .
+
+docker run -v ${PWD}:/app -v /app/node_modules -p 8081:8080 --rm coincalculator:dev
+
+```
+
+Open your browser to http://localhost:8081 and you should see the app.
+
 ## Documentation
 The documentation for the Vue Argon Dashboard is hosted at our [website](https://demos.creative-tim.com/vue-argon-dashboard/documentation/tutorial?ref=ada-github-readme).
 
