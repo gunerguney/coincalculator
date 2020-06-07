@@ -1,12 +1,8 @@
 # Coin Calculator
 
-Vue Argon Dashboard is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files.
-You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Dashboard is coming with pre-built examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
-Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
+In our day, cryptocurrency replaces real currencies, and therefore the volume of transactions in this market is increasing every day. In line with the demand for the market, the infrastructure and interfaces that will meet the needs are increasing day by day and becoming more comprehensive.
 
-**Complex Documentation**
-
-Each element is well presented in a very complex documentation. You can read more about the idea behind this [dashboard here](https://demos.creative-tim.com/vue-argon-dashboard/documentation/tutorial?ref=ada-github-readme). You can check the [components here](https://demos.creative-tim.com/vue-argon-dashboard/documentation/alerts?ref=ada-github-readme) and the [foundation here](https://demos.creative-tim.com/vue-argon-dashboard/documentation/colors?ref=ada-github-readme).
+The CoinCalculator project, which is one of the interfaces developed based on these needs, provides users the opportunity to easily calculate the cryptocurrency they want to buy or sell through live exchange rates. It also takes live market data using the rest api and shows users instant cryptocurrency values and hourly changes.
 
 **Example Pages**
 
