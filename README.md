@@ -14,7 +14,7 @@ If you want to get inspiration or just show something directly to your clients, 
 
 * [Quick Start](#quick-start)
 * [File Structure](#file-structure)
-* [Notes](#notess)
+* [Notes](#notes)
 * [Browser Support](#browser-support)
 * [Licensing](#licensing)
 
