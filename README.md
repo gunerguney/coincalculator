@@ -109,6 +109,8 @@ Within the download you'll find the following directories and files:
 
 - Note: Making HTTP requests to coincapmarket on the client side with Javascript is currently prohibited through CORS configuration. This is to protect your API Key which should not be visible to users of your application so your API Key is not stolen. Secure your API Key by routing calls through your own backend service.
 
+- To bypass this error, you can install the Allow "CORS: Access-Control-Allow-Origin" plugin in the chrome browser.
+
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
