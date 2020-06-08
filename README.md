@@ -14,6 +14,7 @@ If you want to get inspiration or just show something directly to your clients, 
 
 * [Quick Start](#quick-start)
 * [File Structure](#file-structure)
+* [Notes](#notess)
 * [Browser Support](#browser-support)
 * [Licensing](#licensing)
 
@@ -104,6 +105,9 @@ Within the download you'll find the following directories and files:
             |-- UserProfile.vue
 ```
 
+## Notes
+
+- Note: Making HTTP requests to coincapmarket on the client side with Javascript is currently prohibited through CORS configuration. This is to protect your API Key which should not be visible to users of your application so your API Key is not stolen. Secure your API Key by routing calls through your own backend service.
 
 ## Browser Support
 
