@@ -65,10 +65,6 @@ docker run -v ${PWD}:/app -v /app/node_modules -p 8081:8080 --rm coincalculator:
 
 Open your browser to http://localhost:8081 and you should see the app.
 
-## Documentation
-The documentation for the Vue Argon Dashboard is hosted at our [website](https://demos.creative-tim.com/vue-argon-dashboard/documentation/tutorial?ref=ada-github-readme).
-
-
 ## File Structure
 Within the download you'll find the following directories and files:
 
