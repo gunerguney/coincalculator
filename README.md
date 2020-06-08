@@ -11,6 +11,7 @@ The crytocurrency types to be displayed on the screen and for calculation and th
 If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
 
 
+
 ## Table of Contents
 
 * [Quick Start](#quick-start)
@@ -18,15 +19,6 @@ If you want to get inspiration or just show something directly to your clients, 
 * [File Structure](#file-structure)
 * [Browser Support](#browser-support)
 * [Licensing](#licensing)
-
-## Demo
-
-| Dashboard Page | Icons Page | User Profile Page  | Tables Page | Login Page | Register Page  |
-| --- | --- | ---  | --- | --- | ---  |
-| [![Dashboard Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard/dashboard.png)](https://demos.creative-tim.com/vue-argon-dashboard/#/dashboard?ref=ada-github-readme)  | [![Icons Page](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-dashboard/icons.png?raw=true)](https://demos.creative-tim.com/vue-argon-dashboard/#/icons?ref=ada-github-readme)  | [![User Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-dashboard/user.png?raw=true)](https://demos.creative-tim.com/vue-argon-dashboard/#/profile?ref=ada-github-readme)  | [![Tables Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/vue-argon-dashboard/tables.png)](https://demos.creative-tim.com/vue-argon-dashboard/#/tables?ref=ada-github-readme)  | [![Login Page](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-dashboard/login.png?raw=true)](https://demos.creative-tim.com/vue-argon-dashboard/#/login?ref=ada-github-readme)  | [![Register Page](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-dashboard/register.png?raw=true)](https://demos.creative-tim.com/vue-argon-dashboard/#/register?ref=ada-github-readme)  
-
-[View More](https://demos.creative-tim.com/vue-argon-dashboard/dashboard)
-
 
 ## Quick start
 
