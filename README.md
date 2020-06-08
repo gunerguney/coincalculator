@@ -94,6 +94,8 @@ Within the download you'll find the following directories and files:
         |-- components/
         |-- directives/
         |-- layout/
+        |-- mixins
+            |-- baseRestService.js
         |-- plugins/
         |-- views
             |-- CoinCalculator.vue
