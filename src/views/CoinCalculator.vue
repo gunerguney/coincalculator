@@ -19,7 +19,7 @@
                                     <span class="h1 font-weight-bold mb-0">{{ Number(coinItem.price).toFixed(properties[coinItem.name].format)}}</span>
                                 </div>
                                 <div class="col-auto">
-                                    <img  v-bind:src="properties[coinItem.name]['icon']">
+                                    <img  v-bind:src="getIcon(coinItem.name)">
                                 </div>
                             </div>
                             <p class="mt-3 mb-0 text-sm">
@@ -72,13 +72,13 @@
                             <base-dropdown class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                               
                               <base-button block slot="title" type="default" class="dropdown-toggle">
-                                  <img :src="properties[selectedYouPayItem.name]['icon']" width="25" height="25" /> {{selectedYouPayItem.name}}
+                                  <img :src="getIcon(selectedYouPayItem.name)" width="25" height="25" /> {{selectedYouPayItem.name}}
                               </base-button>
                                 
                               <li v-for="youPayItem in youPayList" :key=youPayItem.name v-on:click="onYouPaySelect(youPayItem)">
 
                                 <base-button  block class="dropdown-item">
-                                  <img :src="properties[youPayItem.name]['icon']" width="25" height="25" /> {{youPayItem.name}}
+                                  <img :src="getIcon(youPayItem.name)" width="25" height="25" /> {{youPayItem.name}}
                                 </base-button>
                                 
                               </li>
@@ -126,13 +126,13 @@
                             <base-dropdown class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                               
                               <base-button block slot="title" type="default" class="dropdown-toggle">
-                                  <img :src="properties[selectedYouGetItem.name]['icon']" width="25" height="25" /> {{selectedYouGetItem.name}}
+                                  <img :src="getIcon(selectedYouGetItem.name)" width="25" height="25" /> {{selectedYouGetItem.name}}
                               </base-button>
                                 
                               <li v-for="youGetItem in youGetList" :key=youGetItem.name v-on:click="onYouGetSelect(youGetItem)">
 
                                 <base-button block class="dropdown-item">
-                                  <img :src="properties[youGetItem.name]['icon']" width="25" height="25" /> {{youGetItem.name}}
+                                  <img :src="getIcon(youGetItem.name)" width="25" height="25" /> {{youGetItem.name}}
                                 </base-button>
                                 
                               </li>
@@ -443,6 +443,25 @@
         return [0,0];
       },
 
+      getIcon(itemName){
+
+        switch (itemName) {
+          case 'BTC':
+            return '/img/icons/btc.svg';
+          case 'BCH':
+            return '/img/icons/bch.svg';
+          case 'XRP':
+            return '/img/icons/xrp.svg';
+          case 'ETH':
+            return '/img/icons/eth.svg';
+          case 'USD':
+            return '/img/icons/usd.svg'
+          default:
+            return '/img/icons/btc.svg';
+        }
+
+      },
+
       updatePrices(){
 
         for(var coinItem of this.coinList){
@@ -510,8 +529,8 @@
 
     mounted() {
 
-      var coinTypes = process.env.VUE_APP_COIN_TYPES;
-      var currencyTypes = process.env.VUE_APP_CURRENCY_TYPES;
+      var coinTypes = process.env.VUE_APP_COIN_TYPES.toString();
+      var currencyTypes = process.env.VUE_APP_CURRENCY_TYPES.toString();
 
       this.createDataLists(coinTypes, currencyTypes);
       
