@@ -10,6 +10,10 @@ The crytocurrency types to be displayed on the screen and for calculation and th
 
 If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
 
+Main Page             |  Countdown Page
+:--------------------:|:--------------------:
+![](https://github.com/gunerguney/coincalculator/blob/master/screenshots/MainScreen.png?raw=true)  |  ![](https://github.com/gunerguney/coincalculator/blob/master/screenshots/CountdownScreen.png?raw=true)
+
 ## Table of Contents
 
 * [Quick Start](#quick-start)
