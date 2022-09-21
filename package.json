@@ -27,7 +27,7 @@
     "vue-property-decorator": "^8.4.2",
     "vue-router": "3.0.1",
     "vue2-transitions": "0.3.0",
-    "vuetify": "^2.2.32"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.2",
